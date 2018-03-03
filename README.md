@@ -59,11 +59,11 @@ def authorizeGoogleUse(api, user_id):
 One list named *users*.</br>
 
 ## Create the Alexa Skill
-- Create an Alexa custom skill, if you're not familliar with doing so, [this](https://developer.amazon.com/docs/custom-skills/steps-to-build-a-custom-skill.html) guide can help you.
+- Create an Alexa custom skill, if you're not familiar with doing so, [this](https://developer.amazon.com/docs/custom-skills/steps-to-build-a-custom-skill.html) guide can help you.
 - Point the created custom skill to the url in the [endpoint_https_address](/config_alexa_skill/endpoint_https_address.txt) text file, just make sure to edit the url with your dns name and ad password.
 - Update the interaction model based on the [interaction_model](/config_alexa_skill/interaction_model.json) json file.</br>
 
 ## Create the Google Action
-- Create the project and the action, if you're not familliar doing so, [this](https://developers.google.com/actions/dialogflow/first-app) guide can help you.
+- Create the project and the action, if you're not familiar doing so, [this](https://developers.google.com/actions/dialogflow/first-app) guide can help you.
 - Edit the [agent](/config_google_action/dialogflow_agent/agent.json) json file, scroll down to the bottom and edit the url with your dns name and ad password.
 - Zip the entire content of the [dialogflow_agent folder](/config_google_action/dialogflow_agent) and create the Dialogflow agent from it.
