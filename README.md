@@ -1,4 +1,4 @@
-# home_assistant_appdaemon_alexa_google
+# AppDaemon application for Home Assistant, Handles calls from an Alexa Skill and a Google Action
 AppDaemon application for Home Assistant, handles calls from either and Alexa Skill or a Google Action.
 
 ## Prerequisites
