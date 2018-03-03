@@ -481,7 +481,7 @@ def handleBoilerCardSsml(api, attributes, action, duration, is_new=False, is_iso
             seconds = convertObjectDurationToSeconds(duration)
 
         api.log(str(seconds))
-        if (seconds < 10 or seconds > 3600):
+        if (seconds < 60 or seconds > 3600):
             prompt =  "<speak>I can schedule the boiler to turn off anywhere between 1 and 60 minutes. How long do you want me to turn it on for?</speak>"
             reprompt = "<speak>I can turn on the boiler for any number of minutes up to 60, how long do you want me to turn on the boiler for?</speak>"
         else:
