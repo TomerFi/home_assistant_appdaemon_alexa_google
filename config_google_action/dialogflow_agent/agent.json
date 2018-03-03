@@ -62,7 +62,7 @@
   },
   "defaultTimezone": "Europe/Kaliningrad",
   "webhook": {
-    "url": "https://[HA-DNS]/api/appdaemon/home_control_google?api_password\u003d[HA-API-Password]",
+    "url": "https://[HA-DNS]/api/appdaemon/home_control_google?api_password\u003d[AD-API-Password]",
     "headers": {},
     "available": true,
     "useForDomains": false,
