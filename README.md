@@ -32,7 +32,7 @@ home_control_alexa:
 
 ## Application Analysis and Configuration
 In [home_control.py](/apps/home_control.py) the following variables contains data to be used by the intent handlers:
-- *start_phrases*: A list of start phrases randomly incorporated into the first response of each first request for the session.
+- *start_phrases*: A list of start phrases randomly incorporated into the first response of the session.
 - *end_phrases*: A list of end phrases randomly incorporated into the last response of the session.
 - *hava_profile*: A dictionary for holding the entity names to use with HA to update the current location, get current location and issue an iCloud find request, when I ask the application to locate Hava (my wife).
 - *tomer_profile*: A dictionary doing the same as the above, holding the information for Tomer (myself).
