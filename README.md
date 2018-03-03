@@ -1,5 +1,9 @@
 # AppDaemon application for Home Assistant, Handles calls from Alexa Skill and Google Action
 AppDaemon application for Home Assistant, handles calls from either and Alexa Skill or a Google Action.</br>
+You can see the application in action in the following videos on my [youtube channel](https://www.youtube.com/channel/UCH9z4dabjTo-pRqM3_i5RTg?view_as=subscriber):
+- [Multi step interaction with Alexa part 1](https://www.youtube.com/watch?v=g7Zq0ZpjCU0)
+- [Multi step interaction with Alexa part 2](https://www.youtube.com/watch?v=1pNSTCa0X_k)
+- [Multi step interaction with Google](https://www.youtube.com/watch?v=ucb5h4LkcNk&)
 
 **Please note:** The functionality of this application is design to suit my own needs, it won't necessarily fit others and you might need to do some python code writing and designing to make it work for you.</br>
 For example, the application collects data about my Qnap NAS and reads it back to me, you might not have a Qnap NAS yourself or you might not use its designated Home Assistant component, so you don't actually need that part of the application.</br>
