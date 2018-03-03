@@ -1,4 +1,4 @@
-# AppDaemon application for Home Assistant, Handles calls from an Alexa Skill and a Google Action
+# AppDaemon application for Home Assistant, Handles calls from Alexa Skill and Google Action
 AppDaemon application for Home Assistant, handles calls from either and Alexa Skill or a Google Action.</br>
 
 **Please note:** The functionality of this application is design to suit my own needs, it won't necessarily fit others and you might need to do some python code writing and designing to make it work for you.</br>
@@ -42,3 +42,22 @@ In [home_control.py](/apps/home_control.py) the following variables contains dat
 - *network_profile*: A dictionary holding the entity id's of 6 specific network sensors, based on their states the application will construct a response informing me of the network overall status when I ask for the network information.
 - *storage_profile*: A dictionary holding the entity id's of 8 specific qnap nas sensors, based on their states the application will construct a response informing me of the nas overall status when I ask for the storage information.
 - *water_heater_switch*: A string containing the entity id of my Switcher V2 boiler for the application to use when I ask it to turn on the boiler for X minutes/seconds.
+
+### Restricted Access
+As an added measure of security, I've added a couple of lists to control the users, application and devices allowed to make calls to the application.</br>
+In [home_control.py](/apps/home_control.py) scroll down the bottom where you can see the last two functions and update your id's into the lists, you can also leave it empty for no restricted access:</br>
+```python
+def authorizeAlexaUse(api, application_id, device_id, user_id):
+```
+The lists are:
+- *applications*
+- *devices*
+- *users*
+```python
+def authorizeGoogleUse(api, user_id):
+```
+One list named *users*.</br>
+
+## Create the Alexa Skill
+
+## Create the Google Action
