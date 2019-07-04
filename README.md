@@ -1,4 +1,14 @@
-# AppDaemon application for Home Assistant, Handles calls from Alexa Skill and Google Action
+# AppDaemon application for Home Assistant, Handles calls from Alexa Skill and Google Action</br>![Maintenance](https://img.shields.io/maintenance/no/2019.svg)
+
+**NOT MAINTAINED!**
+
+I'm no longer maintaining this repository!</br>
+
+You can still use the files :point_up:, if you want.</br>
+These :point_down: are the instructions.
+
+__________________________________________
+
 AppDaemon application for Home Assistant, handles calls from either and Alexa Skill or a Google Action.</br>
 You can see the application in action in the following videos on my [youtube channel](https://www.youtube.com/channel/UCH9z4dabjTo-pRqM3_i5RTg?view_as=subscriber):
 - [Multi step interaction with Alexa part 1](https://www.youtube.com/watch?v=g7Zq0ZpjCU0)
